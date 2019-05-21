@@ -1,7 +1,7 @@
-//JavaScript
+//JavaScript Documet
 
 $(document).ready(function(e){
-	document.addEventListener("deviceready", onDeviceReady, false);
+	document.addEventListener ("deviceready", onDeviceReady, false);
 
 });
 
@@ -14,11 +14,11 @@ $(document).ready(function(e){
    
    function getPosition(){
 	   var options={
-		   enableHighAccuracy : true,
+		   enableHighAccuracy :true,
 		   maximumAge: 3600000
 		   }
 	   
-	   var wathID = navigator.geolocation.getCurrentPosition(onSuccess, onError, options);
+	   var watchID = navigator.geolocation.getCurrentPosition(onSuccess, onError, options);
 	  function onSuccess(position){
 		  alert('Latitude:'   +position.coords.latitude   +'\n'+
 		  'Longitude:'       +position.coords.longitude    +'\n');
