@@ -5,10 +5,10 @@ xmlns:gap="http://phonegap.com/ns/1.0"
 id="com.phonegap.app8"
 version="1.0.0">
 
-<name> app8 Geolocalizacion con google maps </name>
+<name>app8 Geolocalizacion con google maps</name>
 
 <description>
-Muestra la ubicacion del dispositivo de acuerdo al gps en el mapa de google maps
+Muestra la ubicacion del dispositivo de acuerdo al GPS en el mapa de google maps
 </description>
 
  <author href="https://build.phonegap.com" email="Veronica.741247@gmail.com">
@@ -16,7 +16,7 @@ Muestra la ubicacion del dispositivo de acuerdo al gps en el mapa de google maps
  </author>
  
  <!--Personaliza la aplicacion y plataforma-->
- <preference name="orientation" value="default"-->
+ <preference name="orientation" value="default"/>
  <preference name="target-device" value="universal"/>
  <preference name="fullscreen" value="true"/>
  <preference name="android-installLocation" value="auto"/>
@@ -28,7 +28,7 @@ Muestra la ubicacion del dispositivo de acuerdo al gps en el mapa de google maps
  <plugin name="cordova-plugin-dialogs" spec="~1.3.1"/>
 
  <!--Plugin para geolocalizar-->
- <plugin name="cordova-plugin-geolocation" spec="2.4.3" />
+ <plugin name="cordova-plugin-geolocation" spec="2.4.3"/>
 
 <!--Para accesar a paginas en internet-->
 <allow-internet href="https://*/*"/>
@@ -38,6 +38,6 @@ Muestra la ubicacion del dispositivo de acuerdo al gps en el mapa de google maps
 <plugin name="cordova-plugin-whitelist" source="npm"/>
 
  <!--Colocar icono app-->
- 
  <icon src= "res/android/mdpi.png"/>
+ 
  </widget>
